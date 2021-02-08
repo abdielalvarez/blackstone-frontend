@@ -36,7 +36,7 @@ function TaskItem({ body, handleDelete, handleEdit, loading }) {
                 <ListItemText
                     primary={body.name}
                     secondary={
-                        <p>{body.content}</p>
+                        <p id="contentElem">{body.content}</p>
                     }
                 />
                 <div className={classes.buttonContainer}>
